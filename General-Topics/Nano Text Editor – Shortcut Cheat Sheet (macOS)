@@ -1,0 +1,77 @@
+# 🍏 Nano Text Editor – Shortcut Cheat Sheet (macOS)
+
+## ✅ How to Select and Delete All Text
+
+1. **Go to the start of the file:**
+   - `Ctrl + Y` (scroll up) or `Ctrl + _` then enter line `1`
+
+2. **Start selection (set mark):**
+   - `Ctrl + ^` *(same as `Ctrl + 6`)*
+
+3. **Go to end of file:**
+   - `Ctrl + V` (scroll down)
+
+4. **Delete selected text:**
+   - `Ctrl + K` (cut)
+
+To paste again (optional): `Ctrl + U`
+
+---
+
+## 🧭 Navigation & Scrolling
+
+| Shortcut        | Action                          |
+|-----------------|----------------------------------|
+| `Ctrl + A`       | Move to beginning of line       |
+| `Ctrl + E`       | Move to end of line             |
+| `Ctrl + Y`       | Scroll up one screen            |
+| `Ctrl + V`       | Scroll down one screen          |
+| `Ctrl + _`       | Go to specific line             |
+| `Ctrl + C`       | Show current cursor position    |
+
+---
+
+## ✏️ Text Editing
+
+| Shortcut        | Action                          |
+|-----------------|----------------------------------|
+| `Ctrl + K`       | Cut line or selected text       |
+| `Ctrl + U`       | Paste previously cut text       |
+| `Ctrl + ^`       | Set mark (begin text selection) |
+| `Ctrl + T`       | Spell check (if enabled)        |
+
+---
+
+## 💾 File Operations
+
+| Shortcut        | Action                          |
+|-----------------|----------------------------------|
+| `Ctrl + O`       | Save (write out) file           |
+| `Ctrl + X`       | Exit nano                      |
+| `Ctrl + G`       | Show help (shortcut guide)      |
+
+---
+
+## 🔄 Undo / Redo (if supported in your nano version)
+
+| Shortcut        | Action                          |
+|-----------------|----------------------------------|
+| `Alt + U`        | Undo last action                |
+| `Alt + E`        | Redo undone action              |
+
+---
+
+## 🛠 Notes
+
+- `Ctrl + ^` is the same as pressing `Ctrl + 6`
+- `Alt` is typically the `Option` key on macOS
+- `^` = Control key, e.g., `^K` = `Ctrl + K`
+
+---
+
+## 🔚 To Completely Clear a File in Nano
+
+1. Open file:  
+   ```bash
+   nano myfile.txt
+
