@@ -1,6 +1,7 @@
 variable "api_key" {
   type        = string
   description = "Meraki Dashboard API key"
+  sensitive   = true
 }
 
 variable "org_id" {
@@ -10,17 +11,17 @@ variable "org_id" {
 
 variable "network_id" {
   type        = string
-  description = "Network ID where the switch exists"
+  description = "Meraki network ID"
 }
 
 variable "switch_serial" {
   type        = string
-  description = "Serial number of the switch the AP connects to"
+  description = "Switch serial number"
 }
 
 variable "port_number" {
   type        = string
-  description = "Port number on the switch to configure"
+  description = "Port number (e.g. '47')"
 }
 
 variable "native_vlan_bootstrap" {
